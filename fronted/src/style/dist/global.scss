@@ -1,0 +1,56 @@
+:root {
+  --wall-bg: #f0f0f0;
+  --wall-bg1: #f0f0f0;
+  --photos-wall-border-color: #9b9b9b;
+}
+* {
+  /* 去除侧边scroll */
+
+  font-family: "Showcard Gothic", "华文琥珀", serif;
+  user-select: none !important;
+}
+
+html {
+  scrollbar-width: none;
+}
+/* app样式 */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ededed;
+  cursor: url("../../../public/shubiao.svg"), auto;
+
+  a {
+    text-decoration: none;
+    color: var(--el-card-color);
+    cursor: pointer;
+  }
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+.el-card {
+  --el-card-padding: 20px;
+}
+
+.el-notification__group h2 {
+  color: #e58787;
+  font-size: 19px;
+  font-weight: 100;
+  text-align: center;
+}
+.el-notification__group p {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Microsoft YaHei", serif;
+}
+
+.test {
+  background-color: rgb(197, 189, 185);
+}

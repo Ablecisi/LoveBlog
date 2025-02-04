@@ -42,7 +42,7 @@ export default {
   color: #9e9e9e !important;
 }
 .el-divider--horizontal {
-  margin: 0px 0 !important;
+  margin: 0 !important;
   background-color: #c1c1c1;
 }
 </style>
